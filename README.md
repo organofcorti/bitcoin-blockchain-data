@@ -21,8 +21,15 @@ The output table will contain fields which depend on the API chosen.
 Blockchain.info tables will contain:
 "time" (unixtime, UTC), "height", "hash", "ver", "fee", "n_tx", "size", "script_hex", "tx_hash", "generationAddress", "addr_tag" and ”API"
 
-An example of the output is here: [api.kaiko.com_data.csv](https://github.com/organofcorti/kaiko-blockchain-API-script/blob/master/api.kaiko.com_data.csv)
+An example of the output is here: [blockchain.info_data.csv](https://github.com/organofcorti/kaiko-blockchain-API-script/blob/master/blockchain.info_data.csv)
 
+
+##### Use Sys.sleep() command if you need to slow down your request due to the request limiter, currently set to:
+   * Requests in 8 Hours: 3 (Soft Limit = 30000, Hard Limit = 30500) 
+   * Requests in 5 minutes: 3 (Soft Limit = 500, Hard Limit = 525) 
+
+  
+##### Check https://blockchain.info/api for up-to-date info, and https://blockchain.info/api/api_create_code if you want to avoid the request limiter altogether.
 
 
 Kaiko.com tables will contain:
@@ -32,5 +39,6 @@ Kaiko.com tables will contain:
 An example of the output is here: [api.kaiko.com_data.csv](https://github.com/organofcorti/kaiko-blockchain-API-script/blob/master/api.kaiko.com_data.csv)
 
 Check http://docs.kaiko.com/ for more information.
+
 
 
