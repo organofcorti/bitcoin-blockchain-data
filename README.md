@@ -1,6 +1,6 @@
 ---
 author: "organofcorti"
-date: "30 April 2016"
+date: "8 May 2016"
 ---
 
 This [R](http://r-project.org) script scrapes and flattens blockchain variable data from various APIs into a data.table and a .csv file. At the moment only the Blockchain.info and Kaiko.com APIs are included
