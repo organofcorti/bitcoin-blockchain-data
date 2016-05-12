@@ -37,8 +37,11 @@ An example of the output is here: [blockchain.info_data.csv](https://github.com/
 
 
 An example of the output is here: [api.kaiko.com_data.csv](https://github.com/organofcorti/kaiko-blockchain-API-script/blob/master/api.kaiko.com_data.csv)
+<<<<<<< Updated upstream
 
 ###### Check http://docs.kaiko.com/ for more information.
 
 ##### Let me know if you want other APIs added
 
+=======
+>>>>>>> Stashed changes
