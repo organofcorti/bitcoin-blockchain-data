@@ -32,6 +32,7 @@ blocktrail_func <- function(MY_APIKEY=MY_APIKEY, sleep=0, x){
 			block_stats		<- data.frame(block_data_list, stringsAsFactors=F)
 			tx_stats		<- data.frame(llply(tx_data_list[!names(tx_data_list_0$data[[1]]) %in% c("inputs","outputs")], int_null_func),
 										stringsAsFactors=F)
+										
 			tx_inputs		<- ldply(tx_data_list $inputs, function(x) data.frame(llply(x, int_null_func), stringsAsFactors=F))
 			tx_outputs		<- ldply(tx_data_list $outputs, function(x) data.frame(llply(x, int_null_func), stringsAsFactors=F))				
 				

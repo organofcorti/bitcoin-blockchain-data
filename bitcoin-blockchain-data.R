@@ -24,9 +24,10 @@ source("kaiko_func.R")
 int_null_func <- function(x){
 	if(is.null(x)) return(NA)
 	if(is.numeric(x)) return(as.integer64(x)) 
+	if(is.logical(x)) return(x)
 	# some APIs return integers as class character
 	suppressWarnings(
-		if(!is.na(as.integer(x))) return(as.integer64(x)) 
+		if(!is.na(as.integer64(x))) return(as.integer64(x)) 
 		)
 	return(x)
 	}
