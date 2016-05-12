@@ -19,7 +19,7 @@ R_repo <- "http://your/R/repo/"
 
 * The output table will contain fields which depend on the API chosen.
 * All integers are 64 bit (using the bit64 library) in case you want to operate on the data before saving it. 
-* Consider using the data.table library (as in the example) if you’re operating on a significant portion of blockchain history.
+* Consider using the data.table library (as in the example) if you’re operating on a significant portion of blockchain history.  
 
 
 =====
