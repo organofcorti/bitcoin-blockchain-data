@@ -1,14 +1,24 @@
 
-This [R](http://r-project.org) script downloads and flattens blockchain variable data from various APIs into a data.table and a .csv file. 
+##### This [R](http://r-project.org) script downloads and flattens blockchain variable data from various APIs into a data.table and a .csv file. 
+  
+  
+  
+##### Requirements  
+Tested:  
+OSX 10.9.5 with R 3.1.1 and RStudio 0.99.902  
+Windows 7 SP1 with R 3.1.0 and RStudio 0.98.1062. On Windows, you may need to add the following at the start of the [bitcoin-blockchain-data.R](https://github.com/organofcorti/bitcoin-blockchain-data/blob/master/bitcoin-blockchain-data.R) script:
 
+```R
+setInternet2()
+```
 
 API functions available for:
 * Blockchain.info
 * Blocktrail.com
 * Kaiko.com
 
-# Before running script:
-1. Make sure you enter your working directory at  
+##### Before running script:
+Make sure you enter your working directory at  
 ```R
 setwd("/your/path/here")
 ```  
